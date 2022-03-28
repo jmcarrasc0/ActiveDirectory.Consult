@@ -4,7 +4,40 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>logonuget.ico</ApplicationIcon>
+    <PackageId>Jmcarrasc0.ActiveDirectory.Consult</PackageId>
+    <Authors>Juan Carrasco</Authors>
+    <Company>Jmcarrasc0</Company>
+    <Product>Jmcarrasc0.ActiveDirectory.Consult</Product>
+    <Description>Package to perform Active Directory or Active Domain queries and authentication through LDAP.
+Paquete para realizar consulta en el Active Directory o Domino Activo y autenticación a través de LDAP</Description>
+    <Copyright>jmcarrasc0 All rights reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/jmcarrasc0/ActiveDirectory.Consult</PackageProjectUrl>
+    <PackageIcon>logonuget.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/jmcarrasc0/ActiveDirectory.Consult</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Paque de prueba</PackageReleaseNotes>
+    <PackageTags>AD, Dominio,Consulta,Login,Dominio Activo, DA, Activo, Consult AD, Consulta Dominio Activo, Consult Active Directory, Active, Directory, Active Directory</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="logonuget.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\j_mca\Pictures\jmcarrasc0\logonuget.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.DirectoryServices" Version="6.0.0" />
