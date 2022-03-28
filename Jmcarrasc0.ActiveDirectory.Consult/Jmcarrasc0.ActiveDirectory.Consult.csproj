@@ -17,11 +17,12 @@ Paquete para realizar consulta en el Active Directory o Domino Activo y autentic
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/jmcarrasc0/ActiveDirectory.Consult</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Paque de prueba</PackageReleaseNotes>
+    <PackageReleaseNotes>Ajuste en la funciones de consulta</PackageReleaseNotes>
     <PackageTags>AD, Dominio,Consulta,Login,Dominio Activo, DA, Activo, Consult AD, Consulta Dominio Activo, Consult Active Directory, Active, Directory, Active Directory</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
